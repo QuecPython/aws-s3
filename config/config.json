@@ -1,0 +1,7 @@
+{
+    "region": "",
+    "access_key": "",
+    "secret_key": "",
+    "bucket": "",
+    "download_path": "usr/s3_downloads/"       
+  }
