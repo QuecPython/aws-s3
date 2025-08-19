@@ -1,7 +1,8 @@
 {
-    "region": "",
-    "access_key": "",
-    "secret_key": "",
-    "bucket": "",
-    "download_path": "usr/s3_downloads/"       
-  }
+  "region": "",
+  "access_key": "",
+  "secret_key": "",
+  "bucket": "",
+  "privacy": "private",
+  "download_path": "usr/"
+}

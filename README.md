@@ -69,5 +69,17 @@ s3_client.delete_file(object_key='test-folder/hello.txt')
 
 In this example, the region, access key, secret key, bucket name, and download path are passed directly when creating the S3Client object. However, it is recommended to store these values in a config.json file located in the config/ directory for better separation of configuration and code.
 
+Example of config file:
+```json
+{
+  "region": "eu-west-3",
+  "access_key": "AKIAR...",
+  "secret_key": "xbTaxNlz...",
+  "bucket": "bucket-name",
+  "privacy": "private",
+  "download_path": "usr/"
+}
+```
+
 ## License 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
